@@ -1,7 +1,5 @@
 ---
-output:
-  md_document:
-    variant: markdown_github
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -16,7 +14,16 @@ knitr::opts_chunk$set(
 
 # MyPackage
 
-The goal of MyPackage is to explore making packages in R 
+The goal of MyPackage is to ...
+
+## Installation
+
+You can install MyPackage from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("utkuhangenc/MyPackage")
+```
 
 ## Example
 
