@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # MyPackage
 
-The goal of MyPackage is to ...
+The goal of MyPackage is to explore making packages and publishing them online. 
 
 ## Installation
 
@@ -25,10 +25,4 @@ You can install MyPackage from github with:
 devtools::install_github("utkuhangenc/MyPackage")
 ```
 
-## Example
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```
