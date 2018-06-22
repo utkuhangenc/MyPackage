@@ -1,0 +1,7 @@
+require(devtools)
+use_readme_rmd()
+use_news_md()
+use_vignette("MyPackage")
+use_github_links()
+library(pkgdown)
+build_site()
